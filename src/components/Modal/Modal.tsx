@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import "simplelightbox/dist/simple-lightbox.min.css";
 import css from "./Modal.module.css";
 import { FaTimes } from "react-icons/fa";
 
@@ -51,6 +50,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, image, onClose }) => {
                 type="button"
                 className={css.closeButton}
                 onClick={onClose}
+                aria-label="Close"
               >
                 <FaTimes />
               </button>

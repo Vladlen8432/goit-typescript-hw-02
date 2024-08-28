@@ -3,11 +3,8 @@ import css from "./Loader.module.css";
 
 const Loader: React.FC = () => {
   return (
-    <div
-      className={css.loaderContainer}
-      style={{ transform: "translateX(6%)" }}
-    >
-      <InfinitySpin type="Puff" color="#00BFFF" height={400} width={400} />
+    <div className={css.loaderContainer}>
+      <InfinitySpin color="#00BFFF" />
     </div>
   );
 };

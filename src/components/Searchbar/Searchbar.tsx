@@ -35,6 +35,7 @@ const Searchbar: React.FC<SearchbarProps> = ({ onSubmit }) => {
                 height: "16px",
                 color: "rgba(0, 0, 0, 0.5)",
               }}
+              aria-label="submit"
             />
           </span>
         </button>
